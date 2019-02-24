@@ -16,7 +16,7 @@ const UserTable = props => (
             <td>{user.name}</td>
             <td>{user.username}</td>
             <td>
-              <div class="flex-row">
+              <div className="flex-row">
                 <button
                   className="button btn-row muted-button"
                   onClick={() => props.editMode(user)}
